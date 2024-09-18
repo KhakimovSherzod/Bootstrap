@@ -1,0 +1,122 @@
+
+
+.custom-card-title {
+    font-size: 20px !important;
+}
+
+.card {
+    border-radius: 20px !important;
+}
+
+.navbar-custom-height {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 0px;
+    background-color: white;
+    color: black;
+}
+
+.custom-flex {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.h1 {
+    font-family: 'Roboto' !important;
+    font-size: 80px;
+}
+
+.custom-container {
+margin: 4px !important;
+}
+
+.container-90 {
+        width: 90% !important;
+        max-width: 100% !important; 
+    }
+
+.custom-hero-text {
+    margin-left: 80px;
+    padding-bottom: 30px !important;
+}
+
+.rounded {
+    border-radius: 40px !important;
+}
+
+.nav-button {
+    border-radius: 20px; /* Rounded corners */
+    text-decoration: none;
+    color: black;
+
+}
+
+.hero-image {
+    width: 850px;
+}
+
+.rounded-pill {
+    border-radius: 40px !important;
+    background-color: white !important;
+}
+
+.nav-button.primary {
+    background-color: black; /* Highlighted button */
+    color: white;
+}
+
+.custom-bg {
+    background-color: #FAF9F6;
+}
+
+@media (min-width: 1400px) {
+    .container-90 {
+        height: 90vh !important;
+    }
+
+    .custom-card-container {
+        margin-top: 200px !important;
+        gap: 90px !important;
+    }
+
+}
+
+@media (max-width: 1300px) and (max-height: 980px) {
+    .container-90 {
+        height: 85vh !important;
+    }
+    .hero-image {
+        width: 620px !important;
+    }
+    .custom-icon {
+        width: 70px !important;
+    }
+
+    .display-5 {
+        font-size: 30px !important;
+    }
+
+    .hero-container {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .custom-hero-text {
+        margin-top: 10px !important;
+        margin-left: 80px !important;
+        text-align: left !important;
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+
+    .custom-h1-text {
+        font-family: 'Roboto' !important;
+        font-size: 40px !important;
+        width: 600px;
+    }
+    
+    .custom-subtext {
+        font-size: 25px;
+    }
+}
